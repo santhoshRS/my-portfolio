@@ -1,12 +1,13 @@
 import React from 'react';
 import Menu from './Menu';
 
+
 const Portfolio: React.FC = () => {
 
     return (
         <div>
-            <h1>Hello, World!</h1>
             <Menu />
+            <h1 className="name">Hi, I'm Santhosh!</h1>
         </div>
     );
 };
